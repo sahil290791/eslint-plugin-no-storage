@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-no-storage",
+  "version": "0.0.0",
+  "description": "A plugin to forbid the usage of sessionStorage and localStorage",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Tzach Yarimi",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
