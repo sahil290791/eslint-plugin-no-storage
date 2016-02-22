@@ -12,9 +12,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {
-    "requireindex": "~1.1.0"
-  },
   "devDependencies": {
     "eslint": "~1.2.0"
   },
