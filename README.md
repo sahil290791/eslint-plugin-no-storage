@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "no-storage/rule-name": 2
+        "no-storage/no-browser-storage": 2
     }
 }
 ```
