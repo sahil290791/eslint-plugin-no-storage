@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-storage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin to forbid the usage of sessionStorage and localStorage",
   "keywords": [
     "eslint",
