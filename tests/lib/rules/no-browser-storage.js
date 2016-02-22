@@ -10,7 +10,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../../../lib/rules/forbid-browser-storage"),
+var rule = require("../../../lib/rules/no-browser-storage"),
 
 	RuleTester = require("eslint").RuleTester;
 
@@ -20,7 +20,7 @@ var rule = require("../../../lib/rules/forbid-browser-storage"),
 //------------------------------------------------------------------------------
 
 var ruleTester = new RuleTester();
-ruleTester.run("forbid-browser-storage", rule, {
+ruleTester.run("no-browser-storage", rule, {
 
 	valid: [
         "SessionStorage.x = 1;",
